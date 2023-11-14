@@ -7,7 +7,7 @@ export default function Navbar() {
         <a href="/" className="logo">Biccas</a>
         <nav>
             <ul className="nav__links">
-                <li className="nav_list"><a className="navbar_links" href="/">Home</a></li>
+                <li className="nav_list"><a className="navbar_links active" href="/">Home</a></li>
                 <li className="nav_list"><a className="navbar_links" href="/">Product</a></li>
                 <li className="nav_list"><a className="navbar_links" href="/">FAQ</a></li>
                 <li className="nav_list"><a className="navbar_links" href="/">Blog</a></li>

@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap');
+
+.collab_container {
+    height: 90vh;
+    width: 100%;
+    display: inline-grid;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    margin-top: -50px;
+    
+}
+
+.collab_title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48.41px;
+}
+
+.collab_img {
+    width: 240px; 
+    height: auto;
+    padding: 25px;
+    display: block;
+}
+.all_collabs{
+    margin-top: -450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
