@@ -1,11 +1,11 @@
 import React from 'react'
 import './CollabComponent.css'
 
-import Grammarly from '../../../assets/grammerly.png'
-import Unsplash from '../../../assets/unsplash.png'
-import Notion from '../../../assets/notion.png'
-import Descript from '../../../assets/descript.png'
-import Intercom from '../../../assets/intercom.png'
+import Grammarly from '../../../assets/collab/grammerly.png'
+import Unsplash from '../../../assets/collab/unsplash.png'
+import Notion from '../../../assets/collab/notion.png'
+import Descript from '../../../assets/collab/descript.png'
+import Intercom from '../../../assets/collab/intercom.png'
 
 
 export default function Collab() {

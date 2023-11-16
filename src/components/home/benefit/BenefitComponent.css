@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;600&display=swap');
+
+.benefit_container {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+}
+
+.benefit_info {
+  width: 100%;
+  height: auto;
+  padding: 40px;
+  font-family: 'Inter', sans-serif;
+}
+
+.benefit_title {
+  font-weight: 700;
+  font-size: 70px;
+  padding: 0 40px;
+}
+
+
+.benefit_imgs {
+  width: 100%;
+  height: auto;
+}
+
+li {
+  list-style: none;
+}
+
+.tick {
+  color: #54BD95;
+  margin: 20px;
+}
+
+.benefit_list {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.all_benefits {
+  position: relative;
+  left: 30px;
+  top: 40px;
+}
+
+.main {
+  position: relative;
+  top: 40px;
+  left: 120px;
+}
+
+.grp1,
+.grp2,
+.grp3,
+.grp4 {
+  z-index: 99;
+  position: relative;
+}
+
+.grp1 {
+  bottom: 460px;
+  right: 10px;
+}
+
+.grp2 {
+  bottom: 380px;
+  left: 180px;
+}
+
+.grp3 {
+  bottom: 250px;
+  right: 470px;
+}
+
+.grp4 {
+  bottom: 110px;
+}

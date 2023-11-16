@@ -1,9 +1,9 @@
 import React from 'react'
 import './SupportComponent.css'
 
-import Icon1 from '../../../assets/icon-one.png'
-import Icon2 from '../../../assets/icon-one.png'
-import Icon3 from '../../../assets/icon-one.png'
+import Icon1 from '../../../assets/support/icon-one.png'
+import Icon2 from '../../../assets/support/icon-one.png'
+import Icon3 from '../../../assets/support/icon-one.png'
 
 
 export default function Support() {

@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;600&display=swap');
+
+.plan {
+    width: 90%;
+    height: 150vh;
+    padding: 20px;
+}
+
+.plan_top {
+    width: auto;
+    height: 50vh;
+    padding-left: 170px;
+}
+
+.plan_bottom {
+    width: auto;
+    height: 90vh;
+    display: flex;
+}
+
+.plan_title_div {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.plan_card_top {
+    margin: 40px 0 0 0;
+}
+
+.plan_title,
+.plan_des {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+.plan_title {
+
+    font-size: 50px;
+    line-height: 73px;
+}
+
+.plan_des {
+    position: relative;
+    top: 50px;
+    font-size: 18px;
+    line-height: 21px;
+    color: #A6A6A6;
+}
+
+.button_container li {
+    list-style: none;
+    margin: 10px;
+}
+
+.plan_buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    position: relative;
+    bottom: -90px;
+}
+
+.yearly {
+    border-radius: 10px;
+    background-color: #54BD95;
+    color: #fff;
+    border: none;
+}
+
+.button_container {
+    display: flex;
+    background-color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 5px;
+    border-radius: 20px;
+}
+
+.monthly,
+.yearly {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.plan_card_title {
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.plan_bg {
+    height: 70vh;
+    position: relative;
+    bottom: 133px;
+}
+
+.plan_card,
+.plan_card_mid {
+    margin: 30px;
+    border-radius: 20px;
+    width: 30%;
+    box-shadow: 1px 1px 2px;
+}
+
+.pro {
+    background-color: #fff;
+    z-index: 99;
+}
+
+.plan_card_mid {
+    background-color: #54BD95;
+    height: 87vh;
+    position: relative;
+    bottom: 30px;
+}
+
+.plan_card_bottom {
+    margin: 0 20px;
+    padding: 10px 0;
+    border-radius: 15px;
+    position: relative;
+    top: 70px;
+    background-color: #F9FAFB;
+    z-index: 99;
+}
+
+.plan_card_des {
+    font-family: 'Inter', sans-serif;
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #A6A6A6;
+    text-align: center;
+}
+
+.dollar {
+    color: #A6A6A6;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    position: relative;
+    left: 130px;
+    top: 10px;
+}
+
+.cost {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 30px;
+    position: relative;
+    left: 140px;
+}
+
+.plan_features i {
+    margin: 10px;
+    color: #54BD95;
+}
+
+.plan_list {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.buy {
+    color: #54BD95;
+    padding: 18px 60px;
+    position: relative;
+    left: 10px;
+    border-radius: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    box-shadow: 1px 1px 3px #000;
+    top: 20px;
+}
+
+.pro_buy {
+    color: #54BD95;
+    padding: 18px 60px;
+    position: relative;
+    top: 5px;
+    left: 70px;
+    border-radius: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    box-shadow: 1px 1px 3px #000;
+    background-color: #54BD95;
+    color: #fff;
+}
+
+.pro_title,
+.pro_des,
+.pro_dollar,
+.pro_cost {
+    position: relative;
+    color: #fff;
+    z-index: 99;
+}
+
+.pro_dollar {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    position: relative;
+    top: 10px;
+    left: 160px;
+}
+
+.pro_cost {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 30px;
+    position: relative;
+    top: 10px;
+    left: 170px;
+}
+
+.pro,
+.dummy {
+    z-index: 99;
+    position: relative;
+    top: -470px;
+}
+
+.dummy {
+    position: relative;
+    left: 120px;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #85DAB9;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+    top: 30px;
+}
+
+.plan_features {
+    position: relative;
+    z-index: 99;
+    height: 40vh;
+}
+
+.fake{
+    width: 60px;
+}
